@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 5px 5%;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 170px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: azure;
+}
+.content {
+  text-align: center;
+  padding: 5%;
+}
+.content h1 {
+  font-size: 60px;
+  color: azure;
+  margin-bottom: 40px;
+}
+.content p {
+  color: azure;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content a {
+  display: inline-block;
+  justify-content: space-between;
+  text-decoration: none;
+  width: 20%;
+}
+.btn {
+  margin-top: 2%;
+  display: inline-block;
+  padding: 20px 20px;
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+  color: #fff;
+  background-color: rgba(206, 206, 206, 0.2); /* Make it semi-transparent */
+  backdrop-filter: blur(15px);
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: rgb(69, 90, 121);
+}

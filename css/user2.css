@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: url("img/bg3.png");
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  text-align: center;
+  padding: 5%;
+  color: #1f273a;
+  text-shadow: 0 5px 5px rgba(2, 2, 2, 0.548);
+}
+.title h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.title a {
+  text-decoration: none;
+  background: #1f273a;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(2, 2, 2, 0.548);
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+}
+.menu ul {
+  display: table;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  padding: 10px;
+}
+.menu img {
+  width: 50px;
+}
+.menu li {
+  list-style: none;
+  margin: 10px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+.semua {
+  background: #1f273a;
+  padding: 3%;
+  box-shadow: 0 5px 10px rgba(2, 2, 2, 0.548);
+}
+.bantul {
+  background: #1f273a;
+  padding: 3%;
+  box-shadow: 0 5px 10px rgba(2, 2, 2, 0.548);
+}
+.sleman {
+  background: #1f273a;
+  padding: 3%;
+  box-shadow: 0 5px 10px rgba(2, 2, 2, 0.548);
+}
+.kota {
+  background: #1f273a;
+  padding: 2.5%;
+  box-shadow: 0 5px 10px rgba(2, 2, 2, 0.548);
+}
+.gk {
+  background: #1f273a;
+  padding: 2.6%;
+  box-shadow: 0 5px 10px rgba(2, 2, 2, 0.548);
+}
+.kp {
+  background: #1f273a;
+  padding: 2.8%;
+  box-shadow: 0 5px 10px rgba(2, 2, 2, 0.548);
+}
+.aduan-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.aduan {
+  background: #1f273a;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(2, 2, 2, 0.548);
+  list-style: none;
+}
+.aduan a {
+  color: #fff;
+  padding: 50px;
+  font-size: 25px;
+}
+.aduan span {
+  font-weight: lighter;
+  padding: 20px;
+}
