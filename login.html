@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <script>
+      function validateForm() {
+        var username = document.forms["loginForm"]["username"].value;
+        var password = document.forms["loginForm"]["password"].value;
+        if (username === "" || password === "") {
+          // If the fields are empty, display an alert
+          alert("Username dan password belum terdaftar");
+          return false;
+        }
+        // Validation passed, proceed with form submission
+        return true;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <form
+        name="loginForm"
+        action="cek_login.php"
+        method="post"
+        onsubmit="return validateForm()"
+        >
+        <h2>Login</h2>
+        <hr>
+          <label>Username</label>
+          <input
+            type="text"
+            name="username"
+            class="form"
+            placeholder="Username .."
+            required="required"
+          />
+  
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            class="form"
+            placeholder="Password .."
+            required="required"
+          />
+  
+          <input type="submit" class="tombol_login" value="LOGIN" />
+          <br />
+          <br />
+        </form>
+      </div>
+      <div class="right">
+        <img src="img/garuda.png" alt="">
+      </div>
+    </div>
+
+  </body>
+</html>
+
+<style>
